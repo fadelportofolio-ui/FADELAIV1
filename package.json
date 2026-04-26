@@ -28,10 +28,9 @@
     "loader-utils": "3.2.1",
     "typescript": "5.7.2"
   },
-  "scripts": {
+ "scripts": {
   "start": "react-scripts start",
-  "build": "CI=false react-scripts build",
-  "install": "npm install --force"
+  "build": "CI=false react-scripts build"
 }
   "browserslist": [
     ">0.2%",
