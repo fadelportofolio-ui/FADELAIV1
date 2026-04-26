@@ -206,7 +206,7 @@ export default function App() {
               style={styles.input}
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="KETIK PERINTAH..."
+              placeholder="Fuel the stable core..."
               onFocus={() => window.scrollTo(0, 0)}
             />
             <button type="submit" style={styles.sendBtn} disabled={!input}>
