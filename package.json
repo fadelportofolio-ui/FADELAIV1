@@ -1,12 +1,14 @@
 {
-  "name": "react",
+  "name": "fadel-cerdas-ai",
   "version": "1.0.0",
-  "description": "FADEL AI PROJECT",
-  "main": "src/index.tsx",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "firebase": "10.8.0",
     "react-syntax-highlighter": "15.5.0",
     "prismjs": "1.29.0",
@@ -21,15 +23,9 @@
     "react-toastify": "9.1.3",
     "date-fns": "2.30.0"
   },
-  "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "typescript": "4.9.5"
-  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "install": "npm install --force"
+    "build": "CI=false react-scripts build"
   },
   "browserslist": {
     "production": [
